@@ -5,7 +5,12 @@ function sonIguales(x, y) {
   // Por ejemplo: 
   // 5, 5 ---> true 
   // 5, 8 ---> false 
-  // Tu código:
+  // Tu código: 
+ 
+  if (x === y) {
+    return true;
+  } else
+  return false;
 }
 
 module.exports = sonIguales;
